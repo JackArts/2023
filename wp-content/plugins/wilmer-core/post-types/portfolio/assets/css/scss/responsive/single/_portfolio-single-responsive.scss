@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+
+	@include ipad-landscape{
+
+		.mkdf-ps-big{
+			&.mkdf-ps-image-holder{
+				margin: 0 0 27px;
+			}
+		}
+	}
+
+	&.mkdf-ps-gallery-images{
+		@include ipad-landscape{
+			.mkdf-ps-big{
+				&.mkdf-ps-image-holder{
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	&.mkdf-ps-masonry-layout{
+		@include ipad-landscape{
+			.mkdf-ps-big{
+				&.mkdf-ps-image-holder{
+					margin: 0;
+				}
+				.mkdf-portfolio-single-title{
+					margin-top: 16px;
+				}
+			}
+		}
+	}
+	
+    .mkdf-ps-image-holder {
+	    
+	    &.mkdf-ps-gallery-images {
+		
+		    @include phone-landscape {
+			
+			    .mkdf-ps-image {
+				    width: 100% !important; // !important is set to override all other stronger selectors
+			    }
+		    }
+		
+		    /***** Columns Layout - end *****/
+	    }
+    }
+	
+	@include ipad-landscape {
+		
+		.mkdf-ps-info-holder {
+			margin: 12px 0 0 !important; // can be set inline in option
+		}
+		.mkdf-ps-navigation{
+			margin: 102px 0 0;
+		}
+		.mkdf-ps-related-posts-holder{
+			margin: 75px 0 0;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */

@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Portfolio Archive page style - begin
+   ========================================================================== */
+
+.tax-portfolio-category {
+    .mkdf-portfolio-list-holder {
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+
+    .mkdf-pl-load-more-holder{
+        .mkdf-pl-load-more{
+            margin: -2px 0 0;
+        }
+    }
+
+    .mkdf-portfolio-list-holder{
+
+        article{
+
+            .mkdf-pli-text{
+
+                padding-left: 0;
+
+                .mkdf-pl-read-more-holder{
+                    display: none;
+                }
+
+                .mkdf-pli-category-holder {
+                    margin: 2px 0 0;
+                }
+            }
+        }
+    }
+}
+.tax-portfolio-tag{
+    .mkdf-pl-load-more-holder{
+        margin-bottom: 90px;
+    }
+}
+
+/* ==========================================================================
+   Portfolio Archive page style - end
+   ========================================================================== */

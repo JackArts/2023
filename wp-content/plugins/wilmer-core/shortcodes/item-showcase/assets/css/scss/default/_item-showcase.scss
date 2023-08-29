@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Item Showcase shortcode style - begin
+   ========================================================================== */
+
+.mkdf-item-showcase-holder {
+	@include mkdfRelativeHolderLayout();
+	text-align: center;
+	opacity: 0;
+	
+	.mkdf-is-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		float: left;
+		width: 40%;
+		margin-top: -100px;
+		opacity: 0;
+		transform: translateY(70px);
+		
+		&.mkdf-appeared {
+			transition: opacity .55s cubic-bezier(0.23, 1, 0.32, 1), transform .55s cubic-bezier(0.23, 1, 0.32, 1);
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	
+	.mkdf-is-item-holder {
+		display: inline-block;
+		vertical-align: middle;
+		width: 30%;
+		
+		&.mkdf-is-left-holder {
+			float: left;
+		}
+		
+		&.mkdf-is-right-holder {
+			float: right;
+		}
+		
+		.mkdf-is-item:first-child {
+			margin: 0;
+		}
+	}
+
+	.mkdf-is-item {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 56px 0 0;
+		opacity: 0;
+
+		&.mkdf-is-left {
+			text-align: right;
+			transform: translateX(-70px);
+			
+			.mkdf-is-content {
+				padding: 0 20px 0 0;
+			}
+		}
+		
+		&.mkdf-is-right {
+			text-align: left;
+			transform: translateX(70px);
+			
+			.mkdf-is-content {
+				padding: 0 0 0 20px;
+			}
+		}
+		
+		&.mkdf-appeared {
+		    transition: opacity .55s cubic-bezier(0.23, 1, 0.32, 1), transform .55s cubic-bezier(0.23, 1, 0.32, 1);
+		    opacity: 1;
+		    transform: translateX(0);
+		}
+		
+		.mkdf-is-content {
+			@include mkdfRelativeHolderLayout();
+			box-sizing: border-box;
+		}
+		
+		.mkdf-is-title {
+			margin: 0;
+		}
+		
+		.mkdf-is-text {
+			margin: 14px 0 0;
+		}
+	}
+}
+/* ==========================================================================
+   Item Showcase shortcode style - end
+   ========================================================================== */

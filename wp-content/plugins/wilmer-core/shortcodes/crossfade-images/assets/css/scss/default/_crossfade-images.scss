@@ -1,0 +1,77 @@
+/* ==========================================================================
+Crossfade Images shortcode styles - start
+========================================================================== */
+.mkdf-crossfade-images {
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	transition: all .4s;
+
+	&:hover {
+		box-shadow: -11px 11px 65px 0 rgba(122,131,153,.6);
+	}
+
+	.mkdf-cfi-link {
+		position: absolute;
+		top:0;
+		left:0;
+		height: 100%;
+		width: 100%;
+		z-index: 100;
+	}
+
+	.mkdf-cfi-img-holder {
+
+		.mkdf-cfi-img-holder-inner {
+			position: relative;
+			overflow: hidden;
+
+			img {
+				vertical-align: middle;
+				transition: all .5s ease;
+			}
+
+			.mkdf-cfi-image-hover {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				z-index: 10;
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+				opacity: 0;
+				transition: all .5s ease;
+			}
+		}
+	}
+
+	.mkdf-cfi-title-holder {
+		text-align: center;
+		margin: 30px 0;
+
+		.mkdf-cfi-title {
+			text-transform: none;
+			font-weight: 400;
+			font-size: 19px;
+		}
+	}
+
+	&:hover {
+		.mkdf-cfi-img-holder {
+
+			.mkdf-cfi-img-holder-inner {
+				img {
+					opacity: 0;
+				}
+				.mkdf-cfi-image-hover{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+Crossfade Images shortcode styles - end
+========================================================================== */

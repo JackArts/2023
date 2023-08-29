@@ -1,0 +1,101 @@
+/* ==========================================================================
+   Portfolio Single navigation style - begin
+   ========================================================================== */
+
+.mkdf-ps-related-posts-holder {
+	@include mkdfRelativeHolderLayout();
+	margin: 87px 0 0;
+	clear: both;
+
+	.mkdf-ps-related-posts {
+        margin: 36px -15px 0 -15px;
+	}
+
+	.mkdf-ps-related-post {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		float: left;
+		padding: 0 15px;
+		box-sizing: border-box;
+
+		&.mkdf-ps-related-posts-4{
+			width: 25%;
+
+			@include ipad-portrait{
+				width: 50%;
+                margin-bottom: 53px;
+			}
+
+            @include phone-landscape {
+                width: 100%;
+
+                &:nth-child(n) {
+                    clear: both;
+                }
+            }
+		}
+
+		&.mkdf-ps-related-posts-3{
+			width: 33.33%;
+
+			@include phone-landscape {
+
+				&:nth-child(3n+1) {
+					clear: none;
+				}
+				width: 100%;
+				margin-bottom: 53px;
+			}
+		}
+		
+		@include ipad-landscape {
+			width: 25%;
+			
+			&:nth-child(4n+1) {
+				clear: both;
+			}
+		}
+
+
+		
+
+
+	}
+	
+	.mkdf-ps-related-image {
+		@include mkdfRelativeHolderLayout();
+		
+		a, img {
+			display: block;
+		}
+	}
+	
+	.mkdf-ps-related-text {
+		@include mkdfRelativeHolderLayout();
+		margin: 18px 0 0;
+		
+		.mkdf-ps-related-title {
+			margin: 0;
+		}
+		
+		.mkdf-ps-related-categories {
+			margin: 2px 0 0;
+            .mkdf-ps-related-category{
+                @include mkdfH7();
+            }
+		}
+	}
+}
+
+.mkdf-ps-small-images-layout{
+
+    .mkdf-ps-related-posts-holder {
+        .mkdf-ps-related-posts {
+            margin: 32px -15px 0 -15px;
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single navigation style - end
+   ========================================================================== */

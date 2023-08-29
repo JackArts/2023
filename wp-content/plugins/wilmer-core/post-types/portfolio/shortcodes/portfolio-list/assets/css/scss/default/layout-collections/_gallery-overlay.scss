@@ -1,0 +1,242 @@
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-list-holder {
+	
+	&.mkdf-pl-gallery-overlay {
+
+        &.mkdf-five-columns,
+        &.mkdf-four-columns{
+            .mkdf-pli-text{
+                padding: 21px 50px 40px;
+            }
+        }
+
+        .mkdf-pli-link{
+            height: 100%;
+        }
+
+        .mkdf-pli-text{
+            padding: 21px 0 40px 50px;
+
+            @include ipad-landscape{
+                padding: 21px 30px 40px 50px;
+            }
+
+            @include ipad-portrait{
+                padding: 21px 80px 40px 50px;
+            }
+
+            @include phone-landscape{
+                padding: 21px 7% 40px 30px;
+            }
+
+            .mkdf-pli-title{
+                margin-top: 2px;
+            }
+        }
+        .mkdf-pli-category-holder{
+            margin: 3px 0 2px;
+        }
+        .mkdf-pli-excerpt{
+            margin: 3px 0 23px;
+        }
+
+        article {
+
+            .mkdf-pli-image img {
+                transform: scale(1.02) translateX(0);
+                transition: .8s cubic-bezier(.21,.68,.19,.69);
+            }
+
+            &:hover {
+                .mkdf-pli-image img {
+                    transform: scale(1.02) translateX(10px);
+                }
+            }
+        }
+
+		&.mkdf-pl-light-skin {
+
+            &.mkdf-pl-has-shadow {
+
+                .mkdf-pl-item-inner {
+                    box-shadow: $default-box-shadow;
+                }
+            }
+
+            article {
+
+                .mkdf-pli-text > a, .mkdf-pli-category-holder {
+                    overflow: hidden;
+                    display: block;
+                }
+        
+                .mkdf-pli-title {
+                    transform: translateY(-30px);
+                    transition: .5s;
+                }
+        
+                .mkdf-pli-category-holder a {
+                    transform: translateY(-20px);
+                    transition: .5s .04s;
+                }
+        
+                .mkdf-pl-read-more-holder {
+                    opacity: 0;
+                    transition: .6s .05s;
+                }
+    
+    
+                &:hover {
+    
+                    .mkdf-pli-text-holder {
+                        opacity: 1;
+
+                        .mkdf-pli-title, .mkdf-pli-category-holder a {
+                            transform: translateY(0px);
+                        }
+                    }
+    
+                    .mkdf-pl-read-more-holder {
+                        opacity: 1;
+
+                        .mkdf-btn:after {
+                            color: #fff;
+                            background-color: $first-main-color;
+                            box-shadow: $third-hover-box-shadow;
+                            transition: box-shadow 1s .1s cubic-bezier(.49,.79,.17,.94);
+                        }
+                    }
+                }
+
+                .mkdf-pl-item-inner {
+                    overflow: hidden;
+                }
+
+                .mkdf-pl-read-more-holder{
+                    .mkdf-btn{
+                        color: #fff;
+                        &:after{
+                            border-radius: 2px;
+                        }
+                        &.mkdf-btn-simple {
+                            &:hover {
+                                color: #fff!important;
+
+                                &:after{
+                                    color: #fff!important;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .mkdf-pli-text {
+
+                    .mkdf-pli-title,
+                    .mkdf-pli-excerpt {
+                        color: #fff;
+                    }
+                    .mkdf-pli-excerpt {
+                        margin: 3px 0 23px;
+                    }
+
+                    .mkdf-pli-category-holder {
+
+                        a {
+                            color: #fff;
+
+                            &:hover {
+                                color: $first-main-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mkdf-pli-text-holder {
+                @include mkdfAbsoluteHolderLayout();
+                padding: 0;
+                background-color: rgba($second-main-color, .9);
+                opacity: 0;
+                text-align: center;
+                box-sizing: border-box;
+                transition: opacity .2s ease-in-out;
+            }
+        }
+        &.mkdf-pl-default-skin{
+
+            &.mkdf-pl-has-shadow {
+
+                .mkdf-pl-item-inner {
+                    box-shadow: $default-box-shadow;
+                }
+            }
+
+            article {
+
+                &:hover {
+
+                    .mkdf-pli-text-holder {
+                        opacity: 1;
+                    }
+                }
+
+                .mkdf-pl-item-inner {
+                    overflow: hidden;
+                }
+
+                .mkdf-pl-read-more-holder{
+                    .mkdf-btn{
+                        color: #000;
+                        &:after{
+                            color: #000;
+                        }
+                        &.mkdf-btn-simple {
+                            &:hover {
+                                color: #000!important;
+                            }
+                        }
+                    }
+                }
+
+                .mkdf-pli-text {
+
+                    .mkdf-pli-title,
+                    .mkdf-pli-excerpt {
+                        color: #000;
+                    }
+                    .mkdf-pli-excerpt {
+                        margin: 3px 0 23px;
+                    }
+
+                    .mkdf-pli-category-holder {
+
+                        a {
+                            color: #000;
+
+                            &:hover {
+                                color: $first-main-color;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mkdf-pli-text-holder {
+                @include mkdfAbsoluteHolderLayout();
+                padding: 0;
+                background-color: rgba($second-main-color, .9);
+                opacity: 0;
+                text-align: center;
+                box-sizing: border-box;
+                transition: opacity .2s ease-in-out;
+            }
+        }
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Overlay style - end
+   ========================================================================== */

@@ -1,0 +1,158 @@
+/* ==========================================================================
+   Single Image shortcode style - begin
+   ========================================================================== */
+
+.mkdf-single-image-holder {
+    @include mkdfRelativeHolderLayout();
+
+	&.mkdf-has-shadow {
+
+		.mkdf-si-inner {
+			box-shadow: inset 0 0 2px 1px #d2d2d4;
+		}
+
+		.mkdf-si-inner {
+			img {
+				z-index: -1;
+			}
+		}
+	}
+	
+	.mkdf-si-inner {
+		@include mkdfRelativeHolderLayout();
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	/***** Custom Link Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-custom-link {
+		
+		.mkdf-si-inner {
+			
+			a {
+				@include mkdfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Custom Link Behavior Style - end *****/
+	
+	/***** Lightbox Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-lightbox {
+		
+		.mkdf-si-inner {
+			
+			a {
+				@include mkdfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Lightbox Behavior Style - end *****/
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-zoom {
+		
+		.mkdf-si-inner {
+			overflow: hidden;
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					transform: scale(1.04);
+				}
+			}
+			
+			img {
+				transform: scale(1);
+				transition: transform .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-grayscale {
+		
+		.mkdf-si-inner {
+			overflow: hidden;
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				transition: all .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+	
+	/***** Moving Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-moving {
+		
+		.mkdf-si-inner {
+			overflow: hidden;
+			padding: 10% 0;
+			background-repeat: no-repeat;
+			background-position: 0 center;
+			background-size: 120%;
+			transition: background .7s ease-out;
+			
+			&:hover {
+				background-position: 90% center;
+			}
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			img {
+				z-index: -1;
+				max-width: 80%;
+			}
+			
+			@include ipad-landscape {
+				padding: 0;
+				background: none;
+				
+				img {
+					z-index: inherit;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	
+	/***** Moving Behavior Style - end *****/
+}
+/* ==========================================================================
+   Single Image shortcode style - end
+   ========================================================================== */

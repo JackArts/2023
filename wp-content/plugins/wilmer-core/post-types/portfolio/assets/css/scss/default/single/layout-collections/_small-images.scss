@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+    
+    &.mkdf-ps-small-images-layout {
+
+        @include ipad-landscape{
+            .mkdf-ps-info-holder{
+                margin-top: 55px!important;
+            }
+        }
+
+        .mkdf-ps-small{
+            margin-bottom: 130px;
+        }
+
+        .mkdf-ps-related-posts-holder{
+            margin: 105px 0 0;
+
+            @include ipad-landscape{
+                margin: 70px 0 0;
+            }
+        }
+
+        .mkdf-ps-image-holder {
+        
+            .mkdf-ps-image {
+                margin: 0 0 30px;
+            
+                &:last-child {
+                    margin: 0;
+                }
+            }
+        }
+    
+        .mkdf-ps-content-item {
+            margin: 0 0 44px;
+        }
+        .mkdf-ps-info-section-title{
+            margin-top:0;
+            line-height: 1em;
+
+            @include ipad-landscape{
+                padding-top: 25px;
+            }
+        }
+        .mkdf-portfolio-single-title{
+            margin-top:0;
+            margin-bottom: 14px;
+            line-height: 1em;
+
+            @include laptop-landscape-mac {
+                font-size: 30px;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Small Images layout style - end
+   ========================================================================== */

@@ -1,0 +1,416 @@
+/* ==========================================================================
+   Accordions shortcode style - begin
+   ========================================================================== */
+
+.mkdf-accordion-holder {
+    @include mkdfRelativeHolderLayout();
+
+	&.mkdf-ac-with-bg-pattern{
+		background-image: url('../../assets/img/default_pattern.png');
+	}
+
+    .mkdf-accordion-title {
+        position: relative;
+        cursor: pointer;
+        margin: 0;
+        box-sizing: border-box;
+        transform: translateZ(0px);
+        transition: .2s;
+	
+	    .mkdf-tab-title {
+		    display: block;
+			line-height: inherit;
+			padding-bottom: 13px;
+	    }
+
+        .mkdf-accordion-mark {
+            position: absolute;
+            top: 50%;
+            width: 50px;
+	        height: 50px;
+	        margin: -1px 0 0;
+	        font-size: 18px;
+	        line-height: 50px;
+            text-align: center;
+            transform: translateY(-50%);
+            border-radius: 2px;
+	
+	        span {
+		        position: absolute;
+		        display: block;
+		        width: 100%;
+		        height: 100%;
+		        font-size: inherit;
+		        line-height: inherit;
+		        transition: opacity .2s ease-out;
+		
+		        &:before {
+			        display: block;
+			        line-height: inherit;
+		        }
+		        
+		        &.mkdf_icon_minus {
+			        opacity: 0;
+		        }
+		        
+		        &.mkdf_icon_plus {
+			        opacity: 1;
+		        }
+	        }
+        }
+
+	    &.ui-state-active,
+	    &.ui-state-hover {
+		
+		    .mkdf-accordion-mark {
+                border-radius: 2px;
+
+			    span {
+				    
+				    &.mkdf_icon_minus {
+					    opacity: 1;
+				    }
+				    
+				    &.mkdf_icon_plus {
+					    opacity: 0;
+				    }
+			    }
+		    }
+	    }
+
+        &.ui-state-active{
+			padding: 30px 20px 13px 50px;
+        }
+    }
+
+    .mkdf-accordion-content {
+        margin: 0;
+	    
+	    p {
+		    margin: 0;
+	    }
+    }
+	
+	&.mkdf-ac-boxed {
+
+        &.mkdf-dark-skin{
+            .mkdf-accordion-title {
+                &.ui-state-active{
+                    background-color: $second-main-color;
+                }
+                &.ui-state-active{
+
+                    &.ui-state-hover{
+                        background-color: $second-main-color;
+                    }
+                }
+            }
+            .ui-accordion-content-active{
+                background-color: $second-main-color;
+                &:last-child{
+                    border-bottom: transparent;
+                }
+            }
+        }
+
+		&.mkdf-white-skin {
+
+			.mkdf-accordion-content{
+				.ui-accordion-content-active{
+					&:last-child{
+						border-bottom: transparent;
+					}
+				}
+			}
+			
+			.mkdf-accordion-title {
+
+				&.ui-state-active{
+                    background-color: #fff;
+
+					@include phone-landscape{
+						padding: 30px 20px 13px 10px;
+					}
+                }
+                &.ui-state-active{
+
+                    &:first-child{
+                        border-top: none;
+                    }
+                    &.ui-state-hover{
+                        background-color: #fff;
+                    }
+                }
+			}
+            .ui-accordion-content-active{
+                background-color: #fff;
+                &:last-child{
+                    border-bottom: transparent;
+                }
+            }
+		}
+
+		&.mkdf-ac-with-order-number{
+			.mkdf-accordion-title{
+				padding: 30px 20px 18px 109px;
+
+				@include laptop-landscape-mac{
+					padding: 30px 20px 13px 109px;
+				}
+
+				&.ui-state-active{
+					padding: 30px 20px 0 109px;
+
+					@include phone-landscape{
+						padding: 30px 80px 13px 0 !important;
+					}
+					
+					&:after{
+						@include phone-landscape{
+							display: none;
+						}
+					}
+				}
+
+				@include phone-landscape{
+					padding: 30px 80px 13px 0;
+				}
+
+				&:after{
+					@include phone-landscape{
+						display: none;
+					}
+				}
+			}
+		}
+		
+		.mkdf-accordion-title {
+			padding: 30px 20px 18px 50px;
+			background-color: transparent;
+			border-top: 1px solid $default-border-color;
+			will-change: padding;
+
+			@include phone-portrait{
+				padding-left: 10px;
+			}
+			
+			&:first-child {
+				margin: 0;
+                border-top:none;
+			}
+			
+			.mkdf-accordion-mark {
+                right: 20px;
+                top: 45px;
+                border-radius: 2px;
+				font-size: 20px;
+				transition: background-color .5s cubic-bezier(.49,.79,.17,.94), color .5s cubic-bezier(.49,.79,.17,.94),box-shadow .5s 50ms cubic-bezier(.49,.79,.17,.94),-webkit-box-shadow .5s 50ms cubic-bezier(.49,.79,.17,.94);
+			}
+			
+			&.ui-state-active,
+            &.ui-state-hover{
+				color: $default-heading-color;
+				background-color: #f2f3f5;
+
+                .mkdf-accordion-mark{
+                    background-color: $first-main-color;
+                    box-shadow: $first-hover-box-shadow;
+                    color: #fff;
+                }
+			}
+            &.ui-state-hover{
+                background-color: transparent;
+            }
+            &.ui-state-active{
+				padding: 30px 20px 0px 50px;
+                &.ui-state-hover{
+                    background-color: #f2f3f5;
+                }
+            }
+		}
+
+        &.mkdf-ac-with-order-number{
+            .mkdf-accordion-content {
+				padding: 0 60px 31px 109px;
+
+                @include phone-landscape {
+					padding: 0 0 13px 0;
+                    border-bottom: transparent;
+                }
+            }
+        }
+		
+		.mkdf-accordion-content {
+			padding: 0 100px 31px 50px;
+			background-color: transparent;
+
+			@include phone-landscape{
+				padding: 0 0 13px 10px;
+			}
+		}
+		.ui-accordion-content-active{
+			background-color: #f2f3f5;
+		}
+	}
+	
+	&.mkdf-ac-simple {
+		border-bottom: 1px solid $default-border-color;
+
+		&.mkdf-white-skin {
+
+			.mkdf-accordion-title {
+				&.ui-state-active{
+					padding: 30px 20px 13px 50px;
+					background-color: transparent;
+				}
+				&.ui-state-active{
+
+					&.ui-state-hover{
+						background-color: transparent;
+					}
+				}
+			}
+			.mkdf-accordion-content {
+				&.ui-accordion-content-active {
+					background-color: transparent;
+                    border-top: none;
+				}
+			}
+		}
+
+		//&.mkdf-ac-with-order-number{
+		//	.mkdf-accordion-title{
+         //       padding: 30px 0 30px 70px;
+        //
+         //       @include phone-landscape{
+         //           padding: 30px 70px 30px 0px;
+         //       }
+		//	}
+		//}
+
+		&.mkdf-ac-with-order-number{
+			.mkdf-accordion-title{
+				padding: 30px 20px 18px 109px;
+
+				&.ui-state-active{
+					padding: 30px 20px 0 109px;
+					.mkdf-accordion-mark{
+						top: 64%;
+					}
+
+					@include phone-landscape{
+                        padding: 30px 80px 13px 0;
+
+						.mkdf-accordion-mark{
+							top: 50%;
+						}
+					}
+
+					&:after{
+						@include phone-landscape{
+							display: none;
+						}
+					}
+				}
+
+				@include phone-landscape{
+					padding: 30px 80px 13px 0;
+				}
+
+				&:after{
+					@include phone-landscape{
+						display: none;
+					}
+				}
+			}
+			.mkdf-accordion-content{
+				border-top: 1px solid transparent;
+				background-color: transparent;
+				padding: 1px 100px 31px 114px;
+
+				@include phone-landscape{
+					padding: 1px 0 31px 0;
+				}
+			}
+		}
+		
+		.mkdf-accordion-title {
+			padding: 17px 0 17px 30px;
+			border-top: 1px solid $default-border-color;
+
+			.mkdf-accordion-mark {
+				right: 20px;
+                border-radius: 2px;
+			}
+
+			&.ui-state-active,
+			&.ui-state-hover{
+				color: $default-text-color;
+				background-color: #f2f3f5;
+
+				.mkdf-accordion-mark{
+					background-color: $first-main-color;
+					box-shadow: $third-hover-box-shadow;
+					transition: $first-main-transition;
+					color: #fff;
+				}
+			}
+			&.ui-state-hover{
+				background-color: transparent;
+			}
+			&.ui-state-active{
+
+				&.ui-state-hover{
+					background-color: #f2f3f5;
+				}
+			}
+		}
+		
+		.mkdf-accordion-content {
+			border-top: 1px solid transparent;
+			background-color: transparent;
+
+			&.ui-accordion-content-active{
+				background-color: #f2f3f5;
+			}
+			
+			&.ui-accordion-content-active {
+				border-color: $default-border-color;
+			}
+		}
+		
+		.mkdf-accordion-content {
+            padding: 30px 100px 31px 54px;
+
+			@include phone-landscape{
+				padding: 21px 60px 16px 20px;
+			}
+		}
+	}
+    &.last-child{
+        border-bottom: transparent;
+    }
+
+	&.mkdf-ac-with-order-number{
+		.mkdf-accordion-title{
+			counter-increment: count;
+
+			&:before{
+				content: counter(count);
+				position: absolute;
+				left: 29px;
+
+				@include phone-landscape{
+                    display: none;
+				}
+			}
+
+			&:nth-of-type(-n+9):before {
+				content: '0'counter(count);
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Accordions shortcode style - end
+   ========================================================================== */

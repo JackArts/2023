@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Clients Carousel shortcode style - begin
+   ========================================================================== */
+
+.mkdf-clients-carousel-holder {
+	@include mkdfRelativeHolderLayout();
+	
+	.mkdf-cc-inner {
+		@include mkdfRelativeHolderLayout();
+	}
+	
+	.mkdf-cc-item {
+		@include mkdfRelativeHolderLayout();
+		
+		.touchevents & {
+			cursor: pointer;
+		}
+		
+		img {
+			display: block;
+		}
+	}
+	
+	.mkdf-cc-link {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+/***** Hover Types - begin *****/
+
+.mkdf-cc-hover-switch-images {
+	
+	.mkdf-cc-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		&.mkdf-cci-has-link {
+			
+			a {
+				
+				&:hover {
+					
+					.mkdf-cc-image {
+						opacity: 0;
+					}
+					
+					.mkdf-cc-hover-image {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		&.mkdf-cci-no-link {
+			
+			&:hover {
+				
+				.mkdf-cc-image {
+					opacity: 0;
+				}
+				
+				.mkdf-cc-hover-image {
+					opacity: 1;
+				}
+			}
+			
+			.mkdf-cc-hover-image {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+		
+		.mkdf-cc-image {
+			width: auto;
+			opacity: 1;
+			will-change: opacity;
+			transition: opacity .15s ease-out;
+		}
+		
+		.mkdf-cc-hover-image {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: auto;
+			opacity: 0;
+			will-change: opacity;
+			transition: opacity .15s ease-out;
+		}
+	}
+}
+
+.mkdf-cc-hover-roll-over {
+	
+	.mkdf-cc-item {
+		overflow: hidden;
+		
+		&.mkdf-cci-has-link {
+			
+			a {
+				
+				&:hover {
+					
+					.mkdf-cc-image {
+						transform: translateY(100%);
+					}
+					
+					.mkdf-cc-hover-image {
+						transform: translate(-50%, 0);
+					}
+				}
+			}
+		}
+		
+		&.mkdf-cci-no-link {
+			
+			&:hover {
+				
+				.mkdf-cc-image {
+					transform: translateY(100%);
+				}
+				
+				.mkdf-cc-hover-image {
+					transform: translate(-50%, 0);
+				}
+			}
+		}
+		
+		.mkdf-cc-image {
+			position: relative;
+			display: block;
+			width: auto;
+			margin: 0 auto;
+			transition: transform .4s ease;
+		}
+		
+		.mkdf-cc-hover-image {
+			position: absolute;
+			top: 0;
+			left: 50%;
+			width: auto;
+			transform: translate(-50%, -100%);
+			transition: transform .4s ease;
+		}
+	}
+}
+
+/***** Hover Types - end *****/
+
+/* ==========================================================================
+   Clients Carousel shortcode style - end
+   ========================================================================== */

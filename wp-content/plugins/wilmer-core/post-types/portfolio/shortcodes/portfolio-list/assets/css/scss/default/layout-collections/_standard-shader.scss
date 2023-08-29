@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-list-holder {
+
+	&.mkdf-pl-standard-shader{
+
+
+
+        .mkdf-pli-text-holder{
+            margin-top: 0!important;
+        }
+
+		&.mkdf-pl-light-skin {
+
+			article {
+
+				.mkdf-pli-category,
+				.mkdf-pli-title {
+					color: #fff;
+				}
+                .mkdf-pl-read-more-holder{
+                    .mkdf-btn{
+                        color: #fff;
+                        &:hover{
+                            color: #fff!important;
+
+                            &:after{
+                                color: #fff!important;
+                            }
+                        }
+						&:after{
+							color: $default-text-color;
+						}
+                    }
+                }
+
+				.mkdf-pli-category {
+					@include mkdfH6();
+					font-size: 12px;
+					text-transform: uppercase;
+				}
+
+				&:hover {
+
+					.mkdf-pli-image {
+
+						&:after {
+							opacity: 1;
+						}
+					}
+				}
+
+				.mkdf-pli-image {
+
+					&:after {
+						@include mkdfImageOverlayHoverStyle(false);
+						z-index: 1;
+					}
+				}
+
+				.mkdf-pli-link {
+					z-index: 2;
+				}
+			}
+
+			.mkdf-pli-text-holder {
+				@include mkdfRelativeHolderLayout();
+				margin: 17px 0 0;
+				color: #fff;
+
+				.mkdf-pli-text {
+					.mkdf-pli-excerpt {
+						margin: 14px 0 10px;
+						font-size: 18px;
+					}
+				}
+
+			}
+		}
+		&.mkdf-pl-default-skin{
+
+			article{
+				.mkdf-pli-text{
+					padding: 17px 10% 9px 0;
+					@include phone-landscape{
+						padding: 21px 15px 36px 0;
+					}
+				}
+			}
+
+		}
+		&.mkdf-pl-default-skin{
+			.mkdf-pli-category,
+			.mkdf-pli-title,
+			.mkdf-pli-text-holder{
+				color: $default-heading-color;
+			}
+			.mkdf-pl-read-more-holder{
+				.mkdf-btn{
+					color: #11192d;
+					&:after{
+						color: $default-heading-color;
+					}
+				}
+			}
+		}
+	}
+
+}
+/* ==========================================================================
+   Portfolio Item Layout - Standard Shader style - end
+   ========================================================================== */

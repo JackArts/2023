@@ -1,0 +1,115 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Masonry Gallery shortcodes responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-masonry-gallery-holder .mkdf-mg-grid-sizer,
+  .mkdf-masonry-gallery-holder .mkdf-mg-item {
+    width: 50%;
+  }
+  .mkdf-masonry-gallery-holder .mkdf-mg-item.mkdf-masonry-size-large-width, .mkdf-masonry-gallery-holder .mkdf-mg-item.mkdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-masonry-gallery-holder .mkdf-mg-grid-sizer,
+  .mkdf-masonry-gallery-holder .mkdf-mg-item {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Masonry Gallery shortcodes responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-big.mkdf-ps-image-holder {
+    margin: 0 0 27px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder.mkdf-ps-gallery-images .mkdf-ps-big.mkdf-ps-image-holder {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder.mkdf-ps-masonry-layout .mkdf-ps-big.mkdf-ps-image-holder {
+    margin: 0;
+  }
+  .mkdf-portfolio-single-holder.mkdf-ps-masonry-layout .mkdf-ps-big .mkdf-portfolio-single-title {
+    margin-top: 16px;
+  }
+}
+
+.mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images {
+  /***** Columns Layout - end *****/
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images .mkdf-ps-image {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-info-holder {
+    margin: 12px 0 0 !important;
+  }
+  .mkdf-portfolio-single-holder .mkdf-ps-navigation {
+    margin: 102px 0 0;
+  }
+  .mkdf-portfolio-single-holder .mkdf-ps-related-posts-holder {
+    margin: 75px 0 0;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-fullheight-slider-holder {
+    height: calc(100vh - 70px);
+  }
+}
+
+/* ==========================================================================
+   Portfolio vertical loop shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 480px) {
+  .mkdf-portfolio-vertical-loop-holder .mkdf-pvl-navigation-holder {
+    height: 34px;
+  }
+  .mkdf-portfolio-vertical-loop-holder article .mkdf-pvli-content-holder .mkdf-pvli-image-holder .mkdf-pvli-image-inner .mkdf-pvli-image-title .mkdf-pvli-image-title-inner .mkdf-pvli-title {
+    font-size: 48px;
+  }
+  .mkdf-portfolio-vertical-loop-holder article.next-item .mkdf-pvli-content-holder .mkdf-pvli-background-text {
+    font-size: 140px;
+  }
+}
+
+/* ==========================================================================
+   Portfolio vertical loop shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .mkdf-testimonials-holder.mkdf-testimonials-image-pagination .mkdf-testimonials-image-pagination-inner {
+    padding: 0 10px 0 30%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-testimonials-holder.mkdf-testimonials-image-pagination .mkdf-testimonials-image-pagination-inner .mkdf-testimonial-text {
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/wilmer-core/assets/css/custom-post-types-map-responsive.css.map */

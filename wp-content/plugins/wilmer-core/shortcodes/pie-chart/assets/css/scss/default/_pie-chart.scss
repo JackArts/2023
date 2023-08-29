@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Pie Chart shortcode style - begin
+   ========================================================================== */
+
+.mkdf-pie-chart-holder {
+
+    &.text-below{
+
+        .mkdf-pc-text-holder,
+        .mkdf-pc-percentage{
+            float: initial;
+        }
+
+        .mkdf-pc-text-holder{
+            margin: 18px 0 0 0;
+            width: 100%;
+        }
+    }
+
+    @include mkdfRelativeHolderLayout();
+	opacity: 0;
+	transition: opacity .2s ease-in;
+	
+    .mkdf-pc-percentage{
+        position: relative;
+        display: block;
+        height: 176px;
+        width: 176px;
+        line-height: 176px;
+	    text-align: center;
+	    float: left;
+    
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .mkdf-pc-percent {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            color: $default-heading-color;
+	        font-size: 60px;
+	        line-height: 1;
+            letter-spacing: -0.02em;
+	        font-weight: 600;
+    
+            &:after {
+                position: relative;
+	            top: -15px;
+                content: '%';
+	            font-size: 36px;
+            }
+        }
+    }
+
+    .mkdf-pc-text-holder {
+        @include mkdfRelativeHolderLayout();
+        text-align: left;
+        margin: 20px 0 0 30px;
+        width: 50%;
+        float: left;
+
+        @include phone-landscape{
+            margin: 20px 0 0 0;
+        }
+
+        .mkdf-caption-text{
+            @include mkdfH6();
+            font-size: 14px;
+            margin: 13px 0 -3px;
+            text-transform: uppercase;
+        }
+
+	    .mkdf-pc-title {
+		    margin: 0;
+            line-height: 1em;
+	    }
+	
+	    .mkdf-pc-text {
+		    margin: 13px 0 0;
+            font-size: 18px;
+            line-height: 1.4em;
+	    }
+    }
+
+    .mkdf-pie-chart-svg{
+        @include mkdfAbsoluteHolderLayout();
+
+        path{
+            fill: #d2d2d4;
+        }
+    }
+}
+@include laptop-landscape-large{
+    .mkdf-pie-chart-holder{
+        .mkdf-pc-text-holder{
+            width: 40%;
+
+            @include phone-landscape{
+                width: 70%;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Pie Chart shortcode style - end
+   ========================================================================== */

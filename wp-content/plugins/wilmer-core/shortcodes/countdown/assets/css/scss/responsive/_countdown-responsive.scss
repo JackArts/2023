@@ -1,0 +1,132 @@
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+
+@include laptop-landscape {
+	
+	.mkdf-countdown {
+
+		&.mkdf-light-skin{
+
+			.countdown-row {
+
+				.countdown-section {
+
+					.countdown-amount {
+						font-size: 60px;
+					}
+				}
+			}
+
+		}
+		
+		.countdown-row {
+			
+			.countdown-section {
+				
+				.countdown-amount {
+					font-size: 60px;
+				}
+			}
+		}
+	}
+}
+
+@include ipad-portrait {
+    
+    .mkdf-countdown {
+
+		&.mkdf-light-skin{
+
+			.countdown-row {
+
+				.countdown-section {
+
+					.countdown-amount {
+						font-size: 50px;
+					}
+				}
+			}
+
+		}
+        
+        .countdown-row {
+	        
+            &.countdown-show4,
+            &.countdown-show5,
+            &.countdown-show6 {
+	
+	            .countdown-section {
+		            width: 33.33333333333333%;
+					margin-bottom: 20px;
+	            }
+            }
+
+			&.countdown-show4{
+				.countdown-section{
+					&:nth-child(4){
+						width: 100%;
+					}
+				}
+			}
+			&.countdown-show5{
+				.countdown-section{
+
+					&:nth-child(4){
+						width: 34%;
+						margin: 15px 0;
+					}
+					&:nth-child(5){
+						width: auto;
+						margin: 15px 0;
+					}
+				}
+			}
+
+	        .countdown-section {
+		
+		        .countdown-amount {
+			        font-size: 50px;
+		        }
+	        }
+        }
+    }
+}
+
+@include phone-landscape {
+	
+	.mkdf-countdown {
+
+		&.mkdf-light-skin{
+
+			.countdown-row {
+
+				.countdown-section {
+
+					.countdown-amount {
+						font-size: 40px;
+					}
+				}
+			}
+
+		}
+		
+		.countdown-row {
+			
+			.countdown-section {
+
+				&:nth-child(4),
+				&:nth-child(5){
+					margin: 0 10px;
+				}
+				
+				.countdown-amount {
+					font-size: 40px;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */

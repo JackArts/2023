@@ -1,0 +1,22 @@
+
+.mkdf-instagram-list-holder {
+	@include mkdfRelativeHolderLayout();
+	clear: both;
+	
+	&:not(.mkdf-il-one-column) {
+		
+		.mkdf-il-item {
+			float: left;
+		}
+	}
+	
+	.mkdf-instagram-carousel {
+		margin: 0 !important;
+	}
+	
+	.mkdf-il-item {
+		@include mkdfRelativeHolderLayout();
+		padding: 0;
+		box-sizing: border-box;
+	}
+}

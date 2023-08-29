@@ -1,0 +1,94 @@
+/* ==========================================================================
+   Image Marquee shortcode style - begin
+   ========================================================================== */
+    .mkdf-image-marquee-holder {
+        position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		overflow: hidden;
+
+        .mkdf-image-marquee {
+            position:relative;
+        }
+
+        .mkdf-image {
+            display: inline-block;
+
+            img {
+                width: auto;
+                max-width: unset;
+                vertical-align: middle;
+            }
+         
+            &.mkdf-original {
+                position: relative;
+            }
+
+            &.mkdf-aux {
+                position: absolute;
+                top:0;
+            }
+        } 
+        
+        &.mkdf-im-full-height {
+            height: 100vh;
+
+            .mkdf-image {
+                height: 100vh;
+
+                img {
+                    height: 100vh;
+                    width: auto;
+                    max-width: unset;
+                    vertical-align: middle;
+                }
+            }
+        }
+   
+        &.mkdf-im-with-content {
+            .mkdf-im-content-holder {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: rgba(0,0,0,.75);
+                z-index: 10;
+            }
+
+            .mkdf-im-title {
+                color: #fff;
+                margin-bottom: 40px;
+
+                .mkdf-im-bold-title {
+                    display: block;
+                    font-weight: 700;
+                    font-family: $default-heading-font;
+                }
+
+                .mkdf-im-regular-title {
+                    display: block;
+                    font-weight: 400;
+                    font-family: $default-text-font;
+                }
+            }
+
+            .mkdf-im-btn {
+                background-color: #fff;
+                color: $first-main-color;
+
+                &:hover {
+                    color: #fff !important;
+                    border-color: #fff !important;
+                }
+            }
+        }
+   }
+/* ==========================================================================
+	Image Marquee shortcode style - begin
+	========================================================================== */

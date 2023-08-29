@@ -1,0 +1,298 @@
+/* ==========================================================================
+   Full Screen Sections shortcode style - begin
+   ========================================================================== */
+
+html.fp-enabled,
+.fp-enabled body {
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	
+	/*Avoid flicker on slides transitions for mobile phones #336 */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#superContainer {
+	height: 100%;
+	position: relative;
+	
+	/* Touch detection for Windows 8 */
+	-ms-touch-action: none;
+	
+	/* IE 11 on Windows Phone 8.1*/
+	touch-action: none;
+}
+
+.fp-scrollable {
+	overflow: hidden;
+	position: relative;
+}
+
+.fp-scroller {
+	overflow: hidden;
+}
+
+.iScrollIndicator {
+	border: 0 !important;
+}
+
+.fp-notransition {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+
+.fp-auto-height.mkdf-fss-item,
+.fp-auto-height .mkdf-fss-slide,
+.fp-auto-height .fp-tableCell {
+	height: auto !important;
+}
+
+.fp-responsive .fp-auto-height-responsive.mkdf-fss-item,
+.fp-responsive .fp-auto-height-responsive .mkdf-fss-slide,
+.fp-responsive .fp-auto-height-responsive .fp-tableCell {
+	height: auto !important;
+}
+
+#fp-nav {
+	position: fixed;
+	top: 50%;
+	right: 40px;
+	margin: -32px 0 0;
+	z-index: 1001;
+	
+	@include ipad-landscape {
+		right: 30px;
+	}
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		
+		li {
+			position: relative;
+			display: block;
+			margin: 10px 0;
+			padding: 0;
+			
+			a {
+				position: relative;
+				width: 12px;
+				height: 12px;
+				display: block;
+				background-color: rgba(#505050, .3);
+				border-radius: 100%;
+				z-index: 1;
+				transition: background-color .2s ease-in-out;
+				
+				&.active,
+				&:hover {
+					background-color: rgba(#505050, .7);
+				}
+				
+				.mkdf-light-header & {
+					
+					span {
+						background-color: rgba(#fff, .3);
+					}
+					
+					&.active,
+					&:hover {
+						
+						span {
+							background-color: #fff;
+						}
+					}
+				}
+				
+				.mkdf-dark-header & {
+					
+					span {
+						background-color: rgba(#000, .3);
+					}
+					
+					&.active,
+					&:hover {
+						
+						span {
+							background-color: #000;
+						}
+					}
+				}
+				
+				span {
+					position: relative;
+					height: 100%;
+					width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+.mkdf-full-screen-sections {
+	@include mkdfRelativeHolderLayout();
+	
+	.mkdf-fss-wrapper {
+		visibility: hidden;
+	}
+	
+	.mkdf-fss-item {
+		@include mkdfTableLayout();
+		margin: 0;
+		padding: 0;
+		background-position: center;
+		background-size: cover;
+		box-sizing: border-box;
+		transition: transform .3s ease;
+		
+		&.active {
+			transform: scale(0.92);
+			
+			&.fp-completely {
+				transform: scale(1);
+			}
+		}
+		
+		&.fp-completely {
+			
+			&:not(.active) {
+				transform: scale(0.92);
+			}
+		}
+		
+		.fp-scroller {
+			
+			> .vc_column_container {
+				padding: 0;
+				margin: 0;
+				
+				> .vc_column-inner {
+					padding: 0;
+					margin: 0;
+				}
+			}
+		}
+		
+		&.mkdf-fss-item-va-top {
+			
+			.mkdf-fss-item-inner {
+				vertical-align: top;
+			}
+		}
+		
+		&.mkdf-fss-item-va-bottom {
+			
+			.mkdf-fss-item-inner {
+				vertical-align: bottom;
+			}
+		}
+		
+		&.mkdf-fss-item-ha-left {
+			
+			.mkdf-fss-item-inner {
+				text-align: left;
+			}
+		}
+		
+		&.mkdf-fss-item-ha-center {
+			
+			.mkdf-fss-item-inner {
+				text-align: center;
+			}
+		}
+		
+		&.mkdf-fss-item-ha-right {
+			
+			.mkdf-fss-item-inner {
+				text-align: right;
+			}
+		}
+		
+		&.mkdf-fss-item-has-link {
+			
+			.mkdf-fss-item-inner {
+				
+				a {
+					position: relative;
+					z-index: 2;
+				}
+			}
+		}
+		
+		.mkdf-fss-item-inner {
+			@include mkdfTableCellLayout();
+			padding: 5%;
+			box-sizing: border-box;
+			
+			a {
+				position: relative;
+				z-index: 2;
+			}
+		}
+		
+		.mkdf-fss-item-link {
+			@include mkdfAbsoluteHolderLayout();
+			z-index: 1;
+		}
+	}
+	
+	.mkdf-fss-nav-holder {
+		position: fixed;
+		bottom: 48px;
+		left: 57px;
+		display: block;
+		width: 55px;
+		text-align: center;
+		visibility: hidden;
+		z-index: 1001;
+		
+		a {
+			display: block;
+			font-size: 55px;
+			line-height: 0.9;
+			color: $default-heading-color;
+			height: auto;
+			opacity: 1;
+			transition: color .2s ease-out, opacity .25s ease-out;
+			
+			&:hover {
+				color: rgba($default-heading-color, .7);
+			}
+			
+			.mkdf-light-header & {
+				color: #fff;
+				
+				&:hover {
+					color: rgba(#fff, .7);
+				}
+			}
+			
+			.mkdf-dark-header & {
+				color: #000;
+				
+				&:hover {
+					color: rgba(#000, .7);
+				}
+			}
+			
+			span {
+				display: block;
+				line-height: inherit;
+				
+				&:before {
+					display: block;
+					line-height: inherit;
+				}
+			}
+		}
+		
+		@include ipad-landscape {
+			bottom: 28px;
+			left: 37px;
+		}
+	}
+}
+/* ==========================================================================
+   Full Screen Sections shortcode style - end
+   ========================================================================== */

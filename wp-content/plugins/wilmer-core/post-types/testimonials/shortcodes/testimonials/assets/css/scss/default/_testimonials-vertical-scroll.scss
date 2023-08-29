@@ -1,0 +1,240 @@
+.mkdf-testimonials-holder {
+
+    &.mkdf-testimonials-vertical-scroll {
+
+        position: relative;
+
+        .mkdf-testimonials-quote-holder{
+            position: absolute;
+            left: 11.4%;
+            top: -65px;
+            z-index: -1;
+
+            svg{
+                path{
+                    fill: $default-border-color;
+                }
+            }
+
+            @include phone-portrait{
+                display: none;
+            }
+
+        }
+
+        .swiper-container-vertical {
+            height: 240px;
+            overflow: hidden;
+
+
+            .swiper-slide {
+                box-sizing: border-box;
+                opacity: 0;
+                transition: .2s;
+
+                &.swiper-slide-active {
+                    opacity: 1;
+                }
+            }
+        }
+        .mkdf-testimonial-image {
+            @include mkdfRelativeHolderLayout();
+            width: 193px;
+            height: 193px;
+            margin: 20px 54px 20px 0;
+
+            //@include phone-landscape{
+            //    width: 70px;
+            //    height: 70px;
+            //}
+
+            &:before {
+                content: '';
+                position: absolute;
+                font-family: $default-text-font;
+                font-weight: 900;
+                right: -30px;
+                top: 19px;
+                display: inline-block;
+                font-size: 120px;
+                letter-spacing: -0.04em;
+                color: $default-heading-color;
+                z-index: 40;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: -15px;
+                left: -15px;
+                width: calc(100% + 30px);
+                height: calc(100% + 30px);
+                box-sizing: border-box;
+            }
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .mkdf-testimonial-text-holder {
+            width: 66%;
+
+            @include laptop-landscape-mac{
+                width: 67%;
+            }
+
+            @include laptop-landscape-medium{
+                width: 60%;
+            }
+            @include ipad-portrait{
+                width: 100%;
+                display: block;
+                position: relative;
+            }
+            .mkdf-testimonial-text {
+                margin: 0 0 15px;
+                font-size: 20px;
+                line-height: 29px;
+
+                @include ipad-portrait{
+                    margin: 0 0 15px 0;
+                }
+            }
+
+            .mkdf-testimonial-author {
+                margin: 0;
+
+                .mkdf-testimonials-author-name {
+                    display: block;
+                }
+
+                .mkdf-testimonials-author-job {
+                    @include mkdfH6();
+                }
+            }
+        }
+
+        .swiper-pagination {
+            position: absolute;
+            margin: 0;
+            right: 0;
+            bottom: 50%;
+            z-index: 100;
+            transform: rotate(90deg);
+
+            @include ipad-portrait{
+                bottom:0;
+                left: 50%;
+                transform: translateX(-50%);
+                right: initial;
+            }
+            @include phone-landscape{
+                bottom: -20px;
+            }
+
+            .swiper-pagination-bullet {
+                vertical-align: middle;
+                padding: 4px;
+                margin: 0 3px;
+                width: 7px;
+                height: 7px;
+                background: none;
+                border: 0;
+                opacity: 1;
+                outline: none;
+                -webkit-appearance: none;
+                position: relative;
+                display: block;
+                float: left;
+                border-radius: 50%;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                &:after {
+                    content: '';
+                    position: absolute;
+                    display: inline-block;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 50%;
+                    transform-origin: center center;
+                    transition: all 0.2s ease-out;
+                }
+
+                &:nth-child(3n + 1) {
+                    &:after {
+                        background-color: $second-main-color;
+                    }
+                }
+
+                &:nth-child(3n + 2) {
+                    &:after {
+                        background-color: $second-main-color;
+                    }
+                }
+
+                &:nth-child(3n) {
+                    &:after {
+                        background-color: $second-main-color;
+                    }
+                }
+
+                &.swiper-pagination-bullet-active,
+                &:hover {
+                    &:after {
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+        .swiper-navigation{
+            font-family: 'ElegantIcons';
+            .swiper-button-prev{
+                background-image: none;
+
+                &:after{
+                    content: "\34";
+                }
+            }
+            .swiper-button-next{
+                background-image: none;
+
+                &:after{
+                    content: "\35";
+                }
+            }
+            .swiper-button-prev,
+            .swiper-button-next{
+                position: absolute;
+                top: 50%;
+                width: 78px;
+                height: 78px;
+                line-height: 78px;
+                padding: 0;
+                margin: 0;
+                color: #12192d;
+                background: #fff;
+                border: 0;
+                border-radius: 2px;
+                outline: 0;
+                -webkit-appearance: none;
+                z-index: 3;
+                text-align: center;
+                font-size: 34px;
+                transform: translateY(-50%);
+
+                &:hover{
+                    background-color: $first-main-color;
+                    transition: $first-main-transition;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

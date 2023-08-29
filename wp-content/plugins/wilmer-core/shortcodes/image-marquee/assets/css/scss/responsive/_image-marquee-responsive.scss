@@ -1,0 +1,52 @@
+/* ==========================================================================
+	Image Marquee shortcode responsive style - begin
+  ========================================================================== */
+    .mkdf-image-marquee-holder {
+		@include ipad-portrait {
+	        &.mkdf-im-with-content {
+	        	.mkdf-im-content-holder {
+	        		.mkdf-im-title {
+	        			font-size: 8vw;
+	        		}
+	        	}
+	        }
+
+	        &:not(.mkdf-im-full-height) {
+	        	.mkdf-image {
+	        	    img {
+	        	        max-width: 300vmin;
+	        	    }
+	        	}
+	        }
+		}    	
+
+		@media only screen and (max-width: 812px) and (orientation:landscape) {
+			&.mkdf-im-with-content {
+				.mkdf-im-content-holder {
+					.mkdf-im-title {
+						font-size: 4vw;
+					}
+
+					img {
+						max-width: 30%;
+						margin: 0 auto;
+					}
+				}
+			}
+
+			&.mkdf-im-full-height {
+			    height: 120vh;
+			    
+			    .mkdf-image {
+			        height: 120vh;
+
+			        img {
+			            height: 120vh;
+			        }
+			    }
+			}
+		}
+    }
+/* ==========================================================================
+  	Image Marquee shortcode responsive style - begin
+  ========================================================================== */

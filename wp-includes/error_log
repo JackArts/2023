@@ -1,0 +1,351 @@
+[27-Jul-2023 16:22:44 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[27-Jul-2023 16:22:44 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[27-Jul-2023 16:22:44 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[27-Jul-2023 16:22:50 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[27-Jul-2023 16:22:57 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[27-Jul-2023 16:24:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[28-Jul-2023 08:12:01 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 08:12:01 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 08:12:01 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 08:12:08 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[28-Jul-2023 08:12:14 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[28-Jul-2023 08:13:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[28-Jul-2023 16:43:16 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 16:43:16 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 16:43:16 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[28-Jul-2023 16:43:20 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[28-Jul-2023 16:43:24 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[28-Jul-2023 16:44:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[29-Jul-2023 09:39:08 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 09:39:08 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 09:39:08 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 09:39:14 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[29-Jul-2023 09:39:21 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[29-Jul-2023 09:40:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[29-Jul-2023 16:16:58 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:16:58 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:16:58 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:17:06 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[29-Jul-2023 16:17:15 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[29-Jul-2023 16:19:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[29-Jul-2023 16:46:15 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:46:15 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:46:15 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 16:46:20 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[29-Jul-2023 16:46:27 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[29-Jul-2023 16:47:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[29-Jul-2023 22:17:16 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 22:17:16 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 22:17:16 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[29-Jul-2023 22:17:20 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[29-Jul-2023 22:17:27 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[29-Jul-2023 22:18:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[30-Jul-2023 17:13:53 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 17:13:53 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 17:13:53 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 17:13:57 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[30-Jul-2023 17:14:01 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[30-Jul-2023 17:14:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[30-Jul-2023 20:50:51 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 20:50:51 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 20:50:51 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[30-Jul-2023 20:50:55 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[30-Jul-2023 20:51:03 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[30-Jul-2023 20:52:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[31-Jul-2023 01:10:21 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 01:10:21 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 01:10:21 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 01:10:47 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[31-Jul-2023 01:11:11 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[31-Jul-2023 01:15:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[31-Jul-2023 19:13:14 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 19:13:14 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 19:13:14 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[31-Jul-2023 19:13:25 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[31-Jul-2023 19:13:27 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[31-Jul-2023 19:14:23 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[01-Aug-2023 03:59:05 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 03:59:05 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 03:59:05 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 03:59:11 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[01-Aug-2023 03:59:15 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[01-Aug-2023 04:00:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[01-Aug-2023 18:31:36 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:31:36 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:31:36 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:31:39 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[01-Aug-2023 18:31:43 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[01-Aug-2023 18:32:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[01-Aug-2023 18:39:28 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:39:28 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:39:28 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[01-Aug-2023 18:39:33 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[01-Aug-2023 18:39:41 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[01-Aug-2023 18:41:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[02-Aug-2023 06:58:07 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 06:58:07 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 06:58:07 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 06:58:09 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[02-Aug-2023 06:58:13 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[02-Aug-2023 06:59:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[02-Aug-2023 08:13:32 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 08:13:32 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 08:13:32 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 08:13:50 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[02-Aug-2023 08:13:55 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[02-Aug-2023 08:15:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[02-Aug-2023 22:31:42 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 22:31:42 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 22:31:42 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[02-Aug-2023 22:31:45 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[02-Aug-2023 22:32:04 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[02-Aug-2023 22:33:35 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[03-Aug-2023 11:19:27 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[03-Aug-2023 11:19:28 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[03-Aug-2023 11:19:28 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[03-Aug-2023 11:19:34 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[03-Aug-2023 11:19:39 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[03-Aug-2023 11:20:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[04-Aug-2023 04:25:22 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 04:25:22 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 04:25:22 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 04:25:25 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[04-Aug-2023 04:25:28 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[04-Aug-2023 04:26:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[04-Aug-2023 17:17:04 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 17:17:04 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 17:17:04 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 17:17:10 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[04-Aug-2023 17:17:10 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[04-Aug-2023 17:18:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[04-Aug-2023 22:54:11 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 22:54:11 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 22:54:11 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[04-Aug-2023 22:54:17 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[04-Aug-2023 22:54:22 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[04-Aug-2023 22:55:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[05-Aug-2023 11:03:49 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[05-Aug-2023 11:03:49 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[05-Aug-2023 11:03:49 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[05-Aug-2023 11:03:52 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[05-Aug-2023 11:03:55 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[05-Aug-2023 11:04:55 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[07-Aug-2023 00:58:24 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 00:58:24 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 00:58:24 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 00:58:27 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[07-Aug-2023 00:58:28 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[07-Aug-2023 00:59:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[07-Aug-2023 01:30:31 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 01:30:31 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 01:30:31 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 01:30:32 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[07-Aug-2023 01:30:33 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[07-Aug-2023 01:31:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[07-Aug-2023 09:04:26 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 09:04:26 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 09:04:26 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[07-Aug-2023 09:04:29 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[07-Aug-2023 09:04:34 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[07-Aug-2023 09:05:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[09-Aug-2023 21:16:04 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[09-Aug-2023 21:16:04 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[09-Aug-2023 21:16:04 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[09-Aug-2023 21:16:20 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[09-Aug-2023 21:16:25 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[09-Aug-2023 21:18:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[10-Aug-2023 02:56:36 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[10-Aug-2023 02:56:36 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[10-Aug-2023 02:56:36 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[10-Aug-2023 02:56:41 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[10-Aug-2023 02:56:48 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[10-Aug-2023 02:58:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[11-Aug-2023 00:47:18 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[11-Aug-2023 00:47:18 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[11-Aug-2023 00:47:18 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[11-Aug-2023 00:47:25 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[11-Aug-2023 00:47:31 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[11-Aug-2023 00:48:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[12-Aug-2023 04:35:50 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[12-Aug-2023 04:35:50 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[12-Aug-2023 04:35:50 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[12-Aug-2023 04:35:55 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[12-Aug-2023 04:36:00 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[12-Aug-2023 04:37:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[13-Aug-2023 04:42:00 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 04:42:00 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 04:42:00 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 04:42:05 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[13-Aug-2023 04:42:12 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[13-Aug-2023 04:44:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[13-Aug-2023 20:03:56 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 20:03:56 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 20:03:56 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[13-Aug-2023 20:04:02 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[13-Aug-2023 20:04:18 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[13-Aug-2023 20:05:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[16-Aug-2023 02:43:44 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[16-Aug-2023 02:43:44 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[16-Aug-2023 02:43:44 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[16-Aug-2023 02:43:54 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[16-Aug-2023 02:44:02 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[16-Aug-2023 02:45:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[17-Aug-2023 09:00:45 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[17-Aug-2023 09:00:45 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[17-Aug-2023 09:00:45 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[17-Aug-2023 09:00:49 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[17-Aug-2023 09:00:53 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[17-Aug-2023 09:02:24 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[19-Aug-2023 11:19:34 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[19-Aug-2023 11:19:34 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[19-Aug-2023 11:19:34 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[19-Aug-2023 11:19:37 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[19-Aug-2023 11:19:42 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[19-Aug-2023 11:20:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[21-Aug-2023 13:19:32 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 13:19:32 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 13:19:32 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 13:19:35 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[21-Aug-2023 13:19:37 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[21-Aug-2023 13:20:28 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[21-Aug-2023 18:33:17 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 18:33:17 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 18:33:17 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[21-Aug-2023 18:33:21 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[21-Aug-2023 18:33:23 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[21-Aug-2023 18:35:29 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2023 16:05:14 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[22-Aug-2023 16:05:14 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[22-Aug-2023 16:05:14 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[22-Aug-2023 16:05:16 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[22-Aug-2023 16:05:18 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[22-Aug-2023 16:05:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[23-Aug-2023 04:18:05 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[23-Aug-2023 04:18:05 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[23-Aug-2023 04:18:05 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[23-Aug-2023 04:18:08 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[23-Aug-2023 04:18:12 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[23-Aug-2023 04:19:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12
+[24-Aug-2023 23:02:03 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[24-Aug-2023 23:02:03 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/Requests/src/Autoload.php): failed to open stream: No such file or directory in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[24-Aug-2023 23:02:03 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Requests/src/Autoload.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear:/usr/local/lib/php') in /home/alfaocom/public_html/wp-includes/class-wp-http.php on line 11
+[24-Aug-2023 23:02:11 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-scripts.php on line 18
+[24-Aug-2023 23:02:15 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/alfaocom/public_html/wp-includes/class-wp-styles.php on line 18
+[24-Aug-2023 23:02:56 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/alfaocom/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/alfaocom/public_html/wp-includes/template-canvas.php on line 12

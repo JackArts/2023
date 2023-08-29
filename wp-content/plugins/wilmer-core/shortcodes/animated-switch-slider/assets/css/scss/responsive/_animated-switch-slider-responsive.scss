@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Animated Switch Slider shortcode responsive style - begin
+   ========================================================================== */
+#mkdf-animated-switch-slider {
+	@include laptop-landscape-medium {
+		.mkdf-content-holder {
+			.mkdf-item-title {
+				font-size: 4.5vw;
+			}
+		}
+	}
+
+	@include ipad-landscape {
+		.mkdf-content-holder {
+			.mkdf-item-text-holder {
+				
+				.mkdf-item-text-holder-inner {
+
+				}
+			}
+
+			.mkdf-item-title {
+				font-size: 5vw;
+				font-size: 6vmin;
+			}
+
+			.mkdf-text-bottom {
+				.mkdf-item-lower-subtitle,
+				.mkdf-item-lower-title{
+					display: none;
+				}
+			}
+		}
+
+		.mkdf-item-background-text{
+			.mkdf-background-text-holder{
+				font-size: 15vw;
+
+				.mkdf-split-text-outer{
+					.mkdf-split-text-right{
+						font-size: 15vw;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Animated Switch Slider shortcode responsive style - end
+   ========================================================================== */

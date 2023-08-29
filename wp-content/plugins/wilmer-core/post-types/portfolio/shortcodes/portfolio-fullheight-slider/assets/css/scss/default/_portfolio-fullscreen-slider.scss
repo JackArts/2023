@@ -1,0 +1,148 @@
+/* ==========================================================================
+   Portfolio Fullscreen Slider shortcode style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-fullheight-slider-holder {
+    height: 100vh;
+
+    .mkdf-portfolio-list-holder{
+        article{
+            .mkdf-pli-text{
+                padding: 21px 0 40px 50px;
+                //padding: 21px 7% 40px;
+            }
+        }
+    }
+
+    @include ipad-landscape{
+        .mkdf-owl-slider .owl-dots{
+            display: none;
+        }
+    }
+
+    .mkdf-portfolio-list-holder,
+    .mkdf-pl-inner,
+    .owl-stage-outer,
+    .owl-stage,
+    .owl-item,
+    .mkdf-pl-item,
+    .mkdf-pl-item-inner {
+        height: 100%;
+    }
+
+    .mkdf-pl-item {
+        width: 100% !important;
+        display: block;
+
+        .mkdf-pli-text > a, .mkdf-pli-category-holder {
+            overflow: hidden;
+            display: block;
+        }
+
+        .mkdf-pli-title {
+            transform: translateY(-30px);
+            transition: .5s;
+        }
+
+        .mkdf-pli-category-holder a {
+            transform: translateY(-20px);
+            transition: .5s .04s;
+        }
+
+        .mkdf-pl-read-more-holder {
+            opacity: 0;
+            transition: .6s .05s;
+        }
+
+        &:hover{
+            .mkdf-pli-text-holder {
+                opacity: 1;
+
+                .mkdf-pli-title, .mkdf-pli-category-holder a {
+                    transform: translateY(0px);
+                }
+            }
+
+            .mkdf-pl-read-more-holder {
+                opacity: 1;
+            }
+
+            .mkdf-pli-image-holder {
+                background-position: 100% 0;
+                transition: .8s cubic-bezier(0.21, 0.68, 0.19, 0.69);
+            }
+
+            .mkdf-pl-read-more-holder {
+
+                .mkdf-btn:after {
+                    color: #fff;
+                    background-color: $first-main-color;
+                    box-shadow: $third-hover-box-shadow;
+                    transition: box-shadow 1s .1s cubic-bezier(.49,.79,.17,.94);
+                }
+            }
+        }
+
+        .mkdf-pli-text-holder {
+            @include mkdfAbsoluteHolderLayout();
+            opacity: 0;
+            background-color: rgba($second-main-color, .9);
+            transition: opacity 0.3s ease;
+
+            .mkdf-pli-title,
+            .mkdf-pli-category-holder a,
+            .mkdf-pli-excerpt,
+            .mkdf-pl-read-more-holder .mkdf-btn{
+                color: #fff!important;
+            }
+
+            .mkdf-pli-category-holder a{
+                &:hover{
+                    color: $first-main-color;
+                }
+            }
+
+            .mkdf-btn{
+                &.mkdf-btn-simple{
+
+                    &:hover{
+                        &:after{
+                            background-color: $first-main-color;
+                            box-shadow: $third-hover-box-shadow;
+
+                            .mkdf-btn-text{
+                                color:#fff;
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+
+    .mkdf-pl-item-inner {
+        overflow: hidden;
+    }
+
+    .mkdf-pli-image-holder {
+        @include mkdfAbsoluteHolderLayout;
+        background-size: cover;
+        background-position: center;
+        width: 110%;
+        background-size: 111%;
+        transition: 1s cubic-bezier(0.1, 0.92, 0.08, 0.93);
+        background-position: 150% 0;
+
+        @include ipad-landscape{
+            width: 130%;
+        }
+    }
+}
+
+/* ==========================================================================
+   Portfolio Fullscreen Slider shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,323 @@
+/* ==========================================================================
+   Team shortcode style - begin
+   ========================================================================== */
+
+.mkdf-team-holder {
+    @include mkdfRelativeHolderLayout();
+
+	&:hover {
+
+		.mkdf-team-social-wrapper {
+			opacity: 1;
+		}
+	}
+
+	&.mkdf-team-info-on-image {
+		
+		.touchevents & {
+			cursor: pointer;
+		}
+
+		&:hover {
+			
+			.mkdf-team-social-wrapper {
+				opacity: 1;
+			}
+
+			.mkdf-team-social-inner {
+				transform: translate3d(0,0,0);
+				transition: transform .45s cubic-bezier(0.64, 0.01, 0.15, 1.16), opacity .5s;
+
+                .mkdf-team-social-holder{
+
+                    .mkdf-team-icon {
+
+                        &:hover{
+                            a{
+                                color: #fff;
+                            }
+                        }
+
+                        a {
+                            color: inherit;
+                        }
+                    }
+                }
+			}
+		}
+		
+		.mkdf-team-social-holder {
+			margin: 26px 14px 0;
+			position: absolute;
+            top: 8px;
+            right: 20px;
+			width: 48px;
+            z-index: 9999;
+
+			.mkdf-team-social-opener{
+				background-color: $first-main-color;
+				border-radius: 2px;
+				box-shadow: 0 10px 20px 0 transparent;
+				transition: background-color .5s cubic-bezier(.49,.79,.17,.94), box-shadow .5s .05s cubic-bezier(.49,.79,.17,.94) !important;
+                margin-bottom: 7px;
+
+                a{
+                    color: #fff!important;
+                }
+
+				&:hover{
+					box-shadow: $first-hover-box-shadow;
+				}
+			}
+
+            &:hover{
+				.mkdf-team-social-opener{
+					box-shadow: $first-hover-box-shadow;
+				}
+
+                .mkdf-team-icon{
+					opacity: 1 !important;
+					transform: translateX(0) !important;
+					pointer-events: auto !important;
+                }
+            }
+
+			.mkdf-team-icon{
+				display: block;
+				width: 48px;
+				float: none;
+
+				&:not(.mkdf-team-social-opener){
+					opacity: 0;
+					transform: translateX(7px);
+					pointer-events: none;
+
+					a {
+						color: inherit;
+						transition: .2s;
+					}
+
+					&:hover{
+						background-color: transparent;
+						box-shadow: none;
+		
+						a {
+							color: $first-main-color !important;
+						}
+					}
+
+					&:nth-of-type(2) {
+						transition: transform .3s, opacity .3s;
+					}
+
+					@for $i from 3 to 10 {
+                        &:nth-child(#{$i}) { transition: transform .3s $i * 0.04s, opacity .3s $i * 0.04s; }
+					}
+				}
+			}
+
+			.mkdf-team-social-inner {
+				padding: 20px 0 43px 25px;
+			}
+
+		}
+	}
+
+    .mkdf-team-image {
+        @include mkdfRelativeHolderLayout();
+
+        img {
+            display: block;
+        }
+    }
+	
+	.mkdf-team-info {
+		@include mkdfRelativeHolderLayout();
+		margin: 22px 0 0;
+	}
+
+    .mkdf-team-name {
+        margin: 0 0 0 8px;
+    }
+
+    .mkdf-team-position {
+		margin: 6px 0 2px 10px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+	
+	.mkdf-team-text {
+		margin: 10px 0 0;
+	}
+	
+	.mkdf-team-social-wrapper {
+		@include mkdfAbsoluteHolderLayout();
+		background-color: rgba($second-main-color, .9);
+		z-index: 1;
+		opacity: 0;
+		transform: translateZ(0);
+		transition: opacity .4s;
+		box-shadow: -32px 32px 75px 0px rgba(122, 131, 153, 0.8);
+		overflow: hidden;
+	}
+	
+	.mkdf-team-social-outer {
+		@include mkdfTableLayout();
+	}
+	
+	.mkdf-team-social-inner {
+		position: relative;
+		display: table-cell;
+		height: 100%;
+		width: 100%;
+        padding: 20px 0 27px 25px;
+		vertical-align: bottom;
+		transition: transform .2s ease;
+
+		@include laptop-landscape-mac{
+			padding: 20px 0 33px 1.8%;
+		}
+	}
+	
+	.mkdf-team-social-holder {
+		@include mkdfRelativeHolderLayout();
+
+        margin: 13px 0 3px 10px;
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        width: 48px;
+        z-index: 9999;
+
+		&:hover{
+			.mkdf-team-social-opener{
+				box-shadow: $first-hover-box-shadow;
+			}
+
+			.mkdf-team-icon{
+				opacity: 1 !important;
+				transform: translateX(0) !important;
+				pointer-events: auto !important;
+			}
+		}
+
+		.mkdf-team-icon{
+			display: block;
+			width: 48px;
+			float: none;
+
+			&:not(.mkdf-team-social-opener){
+				opacity: 0;
+				transform: translateX(7px);
+				pointer-events: none;
+
+				a {
+					color: inherit;
+					transition: .2s;
+				}
+
+				&:hover{
+					background-color: transparent;
+					box-shadow: none;
+	
+					a {
+						color: $first-main-color !important;
+					}
+				}
+
+				&:nth-of-type(2) {
+					transition: transform .3s, opacity .3s;
+				}
+
+				@for $i from 3 to 10 {
+					&:nth-child(#{$i}) { transition: transform .3s $i * 0.04s, opacity .3s $i * 0.04s; }
+				}
+			}
+		}
+
+        .mkdf-team-social-opener{
+            background-color: $first-main-color;
+            border-radius: 2px;
+			color: #fff;
+			transition: box-shadow .5s cubic-bezier(.49,.79,.17,.94);
+
+            a{
+                color: #fff!important;
+            }
+
+            &:hover{
+                box-shadow: $first-hover-box-shadow;
+            }
+        }
+
+		.mkdf-team-icon {
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+			display: inline-block;
+			height: 100%;
+			float: left;
+			
+			.mkdf-icon-element {
+				font-size: inherit;
+				transition: none;
+				display:inline-block;
+				width: 15px;
+			}
+
+			a{
+				color: inherit;
+				display: block;
+                padding: 16px 16px 14px;
+                color: $default-heading-color;
+			}
+
+            &:last-child{
+                .mkdf-icon-element{
+                    width: 19px;
+                }
+            }
+		}
+	}
+    &.mkdf-team-info-below-image{
+        .mkdf-team-position{
+            margin: 2px 0;
+			@include mkdfH7();
+        }
+
+		.mkdf-team-name{
+			margin: 0;
+		}
+
+        .mkdf-team-social-wrapper {
+			box-shadow: none;
+			background-color: none;
+        }
+
+		.mkdf-team-social-holder{
+			margin: 21px 9px 0;
+
+			.mkdf-team-icon{
+				&:not(.mkdf-team-social-opener){
+					a{
+						color: inherit;
+
+						&:hover{
+							color: $first-main-color;
+						}
+					}
+				}
+			}
+		}
+
+        .mkdf-team-icon{
+            display: block;
+            width: 48px;
+            float: none;
+        }
+
+    }
+}
+/* ==========================================================================
+   Team shortcode style - end
+   ========================================================================== */

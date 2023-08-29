@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Portfolio Single page style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+	@include mkdfRelativeHolderLayout();
+	margin: 0 0 53px;
+
+    &.mkdf-ps-small-images-layout,
+    &.mkdf-ps-small-gallery-layout,
+    &.mkdf-ps-small-slider-layout{
+        margin: 0 0 49px;
+    }
+
+    &.mkdf-ps-gallery-layout{
+
+        .mkdf-ps-big.mkdf-ps-image-holder{
+            @include ipad-landscape{
+                margin: 0;
+            }
+        }
+
+    }
+
+	.mkdf-portfolio-single-title{
+		margin-bottom: 3px;
+		line-height: 1em;
+	}
+
+    .mkdf-ps-image-holder {
+	    @include mkdfRelativeHolderLayout();
+	    
+	    .mkdf-ps-image {
+		    
+		    &:not(.mkdf-item-space) {
+			    @include mkdfRelativeHolderLayout();
+			    box-sizing: border-box;
+		    }
+		    
+		    a, img {
+			    position: relative;
+			    display: block;
+		    }
+	    }
+    }
+
+    .mkdf-ps-small{
+        .mkdf-ps-info-holder{
+            .mkdf-ps-info-item{
+
+                &:last-child{
+                    margin:0;
+                    line-height: 1em;
+
+                    .mkdf-ps-info-tag,
+                    .mkdf-ps-info-title{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+	
+	.mkdf-ps-info-holder {
+		@include mkdfRelativeHolderLayout();
+		
+		.mkdf-ps-info-item {
+			@include mkdfRelativeHolderLayout();
+			margin: 0 0 10px;
+			display:block;
+			float: left;
+
+			h6, a {
+				@include mkdfH6();
+				float: left;
+				line-height: 1em;
+                margin: 0 7px 5px 0;
+				color: $default-text-color;
+				text-transform: uppercase;
+			}
+			a{
+				&:hover{
+					color: $first-main-color;
+				}
+			}
+		}
+		
+		.mkdf-ps-info-title {
+			margin: 0;
+		}
+
+
+
+        .mkdf-ps-info-section-title{
+			margin: 34px 0 21px;
+
+            @include ipad-landscape{
+                margin: 32px 0;
+                padding-top:25px;
+            }
+        }
+	}
+}
+
+/* ==========================================================================
+   Portfolio Single page style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Single page specific style for types - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+	
+	.mkdf-ps-image-holder {
+		
+		&.mkdf-grid-masonry-list {
+			
+			.mkdf-ps-image {
+				
+				a {
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page specific style for types - end
+   ========================================================================== */

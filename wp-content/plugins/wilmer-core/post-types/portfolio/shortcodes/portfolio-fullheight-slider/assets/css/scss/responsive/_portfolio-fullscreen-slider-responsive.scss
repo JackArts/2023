@@ -1,0 +1,6 @@
+@include ipad-landscape {
+
+    .mkdf-portfolio-fullheight-slider-holder {
+        height: calc(100vh - 70px); //70px is mobile header height, also this is in style dynamic
+    }
+}

@@ -1,0 +1,138 @@
+/* ==========================================================================
+   Pricing Tables shortcode responsive style - begin
+   ========================================================================== */
+@include ipad-landscape{
+
+    .mkdf-price-table {
+
+        .mkdf-pt-inner {
+            ul {
+                li {
+                    margin: 0;
+                    padding: 0 10px 8px 10px;
+                    text-align: left;
+                    font-size: 18px;
+
+                    &.mkdf-pt-button{
+                        padding: 30px 50px 45px;
+                    }
+
+                    &.mkdf-pt-title-holder{
+                        .mkdf-pt-title{
+                            padding: 20px 0 0 16px;
+                        }
+                    }
+                    &.mkdf-pt-prices{
+                        padding: 0 25px 0 22px;
+                    }
+                    &.mkdf-pt-button{
+                        padding: 30px 50px 45px 27px;
+                    }
+                }
+            }
+            .mkdf-pt-prices{
+                padding: 0 25px 0 55px;
+            }
+        }
+        &.mkdf-pt-active-item{
+
+            .mkdf-pt-inner{
+
+                ul{
+                    li{
+                        &.mkdf-pt-button{
+                            padding: 25px 98px 80px 81px;
+
+                            @include ipad-portrait{
+                                padding: 33px 65px 72px 80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@include ipad-portrait{
+
+    .mkdf-pricing-tables{
+
+        .mkdf-pt-inner {
+            ul {
+                li {
+                    margin: 0;
+                    padding: 0 30px 8px 63px;
+                    text-align: left;
+                    font-size: 18px;
+
+                    &.mkdf-pt-button{
+                        padding: 30px 50px 45px;
+                    }
+
+                    &.mkdf-pt-title-holder{
+                        .mkdf-pt-title{
+                            padding: 20px 0 0 16px;
+                        }
+                    }
+                    &.mkdf-pt-prices{
+                        padding: 0 25px 0 73px;
+                    }
+                    &.mkdf-pt-button{
+                        padding: 33px 65px 72px 80px;
+                    }
+                }
+            }
+            .mkdf-pt-prices{
+                padding: 0 25px 0 55px;
+            }
+        }
+    }
+}
+@include phone-landscape{
+
+    .mkdf-pricing-tables{
+
+        .mkdf-pt-inner {
+            ul {
+                li {
+                    text-align: left;
+                    font-size: 18px;
+                    margin: 0;
+                    padding: 0 30px 8px 23px;
+
+                    &.mkdf-pt-button{
+                        padding: 30px 50px 45px;
+                    }
+
+                    &.mkdf-pt-title-holder{
+                        .mkdf-pt-title{
+                            padding: 20px 0 0 26px;
+                        }
+                    }
+                    &.mkdf-pt-prices{
+                        padding: 0 25px 0 43px;
+                    }
+                    &.mkdf-pt-button{
+                        padding: 33px 65px 72px 80px;
+                    }
+                }
+            }
+            .mkdf-pt-prices{
+                padding: 0 25px 0 55px;
+            }
+
+            &.mkdf-pt-active-item {
+                ul{
+                    li{
+                        .mkdf-pt-button{
+                            padding: 33px 82px 72px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Pricing Tables shortcode responsive style - end
+   ========================================================================== */

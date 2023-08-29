@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Frame Slider shortcode style - begin
+   ========================================================================== */
+
+.mkdf-frame-slider-holder {
+	@include mkdfRelativeHolderLayout();
+	text-align: center;
+	padding: 50px 0 48px;
+	
+	
+	.mkdf-fs-phone {
+		display: inline-block;
+		position: relative;
+		z-index: 10;
+
+		img {
+			display: block;
+		}
+	}
+
+	.mkdf-fs-slides {
+		position: absolute;
+		top: 12.5%;
+		left: calc(3% + 1px);
+		cursor: -webkit-grab;
+		visibility: hidden;
+		transform: translateX(-3%);
+
+		.mkdf-fs-slide{
+			margin: 0 55px;
+			position: relative;
+		}
+
+		a, img {
+			display: block;
+		}
+	}
+	.mkdf-owl-slider {
+		.owl-dots {
+			margin: 80px 0 0;
+
+			.owl-dot {
+
+				margin: 0 14px;
+
+				span {
+					border: none;
+					background-color: #a3a3a3;
+					width: 8px;
+					height: 8px;
+				}
+
+				&.active{
+					span{
+						background-color: $first-main-color;
+						border: none;
+					}
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Frame Slider shortcode style - end
+   ========================================================================== */

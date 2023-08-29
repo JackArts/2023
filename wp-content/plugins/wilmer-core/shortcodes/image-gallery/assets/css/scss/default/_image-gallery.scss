@@ -1,0 +1,230 @@
+/* ==========================================================================
+   Image Gallery shortcode style - begin
+   ========================================================================== */
+
+.mkdf-image-gallery {
+	@include mkdfRelativeHolderLayout();
+
+	.mkdf-owl-slider{
+		.owl-nav{
+			.owl-next,
+			.owl-prev{
+				width: 70px;
+				height: 70px;
+
+				@include phone-landscape{
+					width: 55px;
+					height: 55px;
+				}
+			}
+			@include phone-landscape{
+				.owl-next{
+					background-color: $first-main-color;
+				}
+				.owl-prev{
+					background-color: #fff;
+					&:hover{
+						background-color: $first-main-color;
+						.owl-next{
+							background-color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	&.mkdf-has-shadow {
+	
+		.mkdf-ig-image-inner {
+			box-shadow: $default-box-shadow;
+		}
+		
+		&.mkdf-ig-slider-type,
+		&.mkdf-ig-carousel-type {
+			
+			.owl-stage-outer {
+				padding: 0 0 20px;
+			}
+			
+			.mkdf-ig-image {
+				box-shadow: $default-box-shadow;
+			}
+		}
+	}
+	
+	.mkdf-ig-image {
+		
+		a, img {
+			position: relative;
+			display: block;
+		}
+	}
+	
+	.mkdf-ig-image-inner {
+		@include mkdfRelativeHolderLayout();
+	}
+	
+	.mkdf-ig-slider {
+		@include mkdfRelativeHolderLayout();
+	}
+	
+	/***** Image Gallery Masonry Style - begin *****/
+	
+	&.mkdf-ig-masonry-type {
+		
+		.mkdf-ig-image {
+			
+			&.mkdf-fixed-masonry-item {
+				
+				.mkdf-ig-image-inner,
+				a {
+					height: 100%;
+				}
+			}
+		}
+	}
+	
+	/***** Image Gallery Masonry Style - end *****/
+	
+	/***** Custom Link Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-custom-link {
+		
+		.mkdf-ig-image {
+			
+			a {
+				@include mkdfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Custom Link Behavior Style - end *****/
+	
+	/***** Lightbox Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-lightbox {
+		
+		.mkdf-ig-image {
+			
+			a {
+				@include mkdfImageOverlayHoverStyle();
+			}
+		}
+	}
+	
+	/***** Lightbox Behavior Style - end *****/
+	
+	/***** Zoom Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-zoom {
+		
+		.mkdf-ig-image {
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					transform: scale(1.04);
+				}
+			}
+			
+			.mkdf-ig-image-inner {
+				overflow: hidden;
+			}
+			
+			img {
+				transform: scale(1);
+				transition: transform .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Zoom Behavior Style - end *****/
+	
+	/***** Grayscale Behavior Style - begin *****/
+	
+	&.mkdf-image-behavior-grayscale {
+		
+		.mkdf-ig-image {
+			overflow: hidden;
+			
+			.touchevents & {
+				cursor: pointer;
+			}
+			
+			&:hover {
+				
+				img {
+					-webkit-filter: grayscale(0);
+					filter: none;
+				}
+			}
+			
+			img {
+				filter: url('img/desaturate.svg#grayscale');
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				filter: gray;
+				filter: grayscale(100%);
+				transition: all .3s ease-in-out;
+			}
+		}
+	}
+	
+	/***** Grayscale Behavior Style - end *****/
+
+	/***** Navigation Arrows positioning - start *****/
+
+	.mkdf-owl-slider{
+		.owl-nav{
+			.owl-prev,
+			.owl-next{
+				top: initial;
+				bottom: 0;
+				transform: none;
+				border-radius: 0;
+			}
+
+			.owl-prev{
+				left: 0;
+			}
+
+			.owl-next{
+				left: 70px;
+				right: initial;
+
+				@include phone-landscape{
+					left: 55px;
+				}
+			}
+		}
+
+		&.mkdf-slider-has-both-nav{
+
+			.owl-nav{
+				.owl-prev,
+				.owl-next{
+					bottom: 46px; /* because of the pagination height*/
+				}
+			}
+
+		}
+	}
+
+	/***** Navigation Arrows positioning - end *****/
+
+	&.mkdf-slider-overflow-visible{
+		.mkdf-owl-slider{
+			.owl-stage-outer{
+				overflow: visible;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Image Gallery shortcode style - end
+   ========================================================================== */

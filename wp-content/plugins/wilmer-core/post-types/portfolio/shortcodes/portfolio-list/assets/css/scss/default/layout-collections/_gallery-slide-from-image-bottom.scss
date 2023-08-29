@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-list-holder {
+	
+	&.mkdf-pl-gallery-slide-from-image-bottom {
+
+        .mkdf-pli-link{
+            height: 70%;
+        }
+
+		&.mkdf-pl-light-skin{
+            .mkdf-pli-text-holder,
+            .mkdf-pli-title{
+                background-color: $second-main-color;
+                color: #fff;
+            }
+            .mkdf-pl-read-more-holder{
+                .mkdf-btn{
+                    color: #fff;
+                    &:after{
+                        color: #000;
+                    }
+                    &.mkdf-btn-simple {
+                        &:hover {
+                            color: #fff!important;
+                        }
+                    }
+                }
+            }
+		}
+
+		&.mkdf-pl-has-shadow {
+			
+			.mkdf-pl-item-inner {
+				box-shadow: $default-box-shadow;
+			}
+		}
+		
+		article {
+			
+			&:hover {
+				
+				.mkdf-pli-text-holder,
+				.mkdf-pli-text-wrapper {
+					transform: translateY(0);
+				}
+			}
+			
+			.mkdf-pl-item-inner {
+				overflow: hidden;
+			}
+		}
+		
+		.mkdf-pli-text-holder {
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: auto;
+			bottom: 0;
+			left: 0;
+			padding: 15px 20px 10px;
+			background-color: #fff;
+			overflow: hidden;
+			box-sizing: border-box;
+			transform: translateY(100%);
+			transition: transform .4s ease-in-out;
+		}
+		
+		.mkdf-pli-text-wrapper {
+			transform: translateY(-200%);
+			transition: transform .4s ease-in-out;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Slide From Image Bottom style - end
+   ========================================================================== */

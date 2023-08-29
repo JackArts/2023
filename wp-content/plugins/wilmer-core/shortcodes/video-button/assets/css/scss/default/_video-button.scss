@@ -1,0 +1,167 @@
+/* ==========================================================================
+   Video Button shortcode start styles
+   ========================================================================== */
+
+.mkdf-video-button-holder {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+	&.mkdf-vb-has-img {
+		
+		.mkdf-video-button-play,
+		.mkdf-video-button-play-image {
+			@include mkdfAbsoluteHolderLayout();
+			z-index: 1;
+			width: 64px;
+			height: 64px;
+			transform: translate(-50%,-50%);
+			top: 50%;
+			left: 50%;
+
+			@include phone-landscape{
+				width: 34px;
+				height: 34px;
+			}
+
+			.mkdf-video-button-play-inner {
+				position: relative;
+				top: 50%;
+				left: 0;
+				display: block;
+				text-align: center;
+				transform: translateY(-50%);
+			}
+		}
+	}
+	
+	.mkdf-video-button-image {
+		@include mkdfRelativeHolderLayout();
+		
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+	
+	.mkdf-video-button-play,
+	.mkdf-video-button-play-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		z-index: 1;
+	}
+
+    .mkdf-video-button-text{
+        display:inline-block;
+        vertical-align: middle;
+        color: #fff;
+		padding-right: 11px;
+        font-size: 16px;
+        letter-spacing: 0.02em;
+        font-weight: 500;
+	}
+	
+	.mkdf-video-button-text-holder:hover {
+		
+		+.mkdf-video-button-play {
+			box-shadow: $first-hover-box-shadow;
+		}
+	}
+
+	.mkdf-video-button-play {
+		display: inline-block;
+		vertical-align: middle;
+		color: #fff;
+		background-color: $first-main-color;
+		font-size: 64px;
+		line-height: 1;
+		border-radius: 2px;
+        padding: 18px;
+		box-sizing: border-box;
+		transition: background-color .5s cubic-bezier(.49,.79,.17,.94), box-shadow .5s .05s cubic-bezier(.49,.79,.17,.94);
+
+		svg{
+			display: block;
+
+			polygon{
+				fill: #fff;
+			}
+		}
+
+        .arrow_triangle-right{
+            &:before{
+                font-size: 28px;
+            }
+        }
+
+		&:hover{
+			box-shadow: $first-hover-box-shadow;
+		}
+		
+		span {
+			display: block;
+			line-height: inherit;
+			
+			&:before {
+				display: block;
+				line-height: inherit;
+			}
+		}
+
+		.mkdf-video-button-play-inner{
+			display: flex;
+			height: 100%;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+		}
+
+	}
+	
+	.mkdf-video-button-play-image {
+		
+		&.mkdf-vb-has-hover-image {
+			
+			&:hover {
+				
+				img {
+					
+					&:first-child {
+						opacity: 0;
+					}
+					
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			transition: opacity .3s ease-in-out;
+			
+			&:first-child {
+				position: relative;
+				opacity: 1;
+			}
+			
+			&:nth-child(2) {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				opacity: 0;
+				transform: translateX(-50%) translateZ(0);
+				
+				.rev_slider_wrapper & {
+					transform: translateZ(0);
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Video Button shortcode end styles
+   ========================================================================== */

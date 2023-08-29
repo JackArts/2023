@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Portfolio Single - Slider layout style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+	
+	&.mkdf-ps-slider-layout {
+
+		.mkdf-grid-row.mkdf-ps-big {
+			margin-bottom: 107px;
+		}
+		
+		.mkdf-ps-image-holder {
+			margin: 0 0 22px;
+			
+			.mkdf-ps-image-inner {
+				visibility: hidden;
+			}
+			
+			.mkdf-ps-image {
+				
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single - Slider layout style - end
+   ========================================================================== */

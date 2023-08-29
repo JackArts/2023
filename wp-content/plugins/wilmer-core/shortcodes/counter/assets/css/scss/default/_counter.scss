@@ -1,0 +1,193 @@
+/* ==========================================================================
+   Counter shortcode style - begin
+   ========================================================================== */
+
+.mkdf-counter-holder {
+    @include mkdfRelativeHolderLayout();
+    opacity: 0;
+	transition: opacity 0.2s ease-in;
+	
+	.mkdf-counter-inner {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+    .mkdf-counter {
+	    height: 1em;
+	    display: inline-block !important;
+	    vertical-align: middle;
+	    color: inherit;
+	    line-height: 1em;
+	    font-weight: 600;
+	    overflow: hidden;
+    }
+
+    .mkdf-counter-number{
+        position: relative;
+
+        &.mkdf-shadow-counter{
+            float: left;
+            z-index: 1;
+        }
+    }
+
+    .mkdf-counter-content{
+        &.mkdf-shadow-counter {
+            margin: -20px 0 0 -34px;
+            z-index: 2;
+        }
+    }
+
+    .mkdf-counter-inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &.mkdf-counter-centered,
+    &.mkdf-counter-left{
+
+        .mkdf-counter-inner{
+            display: block;
+        }
+    }
+
+    &.mkdf-shadow-counter{
+        .mkdf-counter-inner{
+            display: flex;
+        }
+    }
+
+    &.mkdf-counter-left{
+
+        .mkdf-counter-number {
+            text-align: left;
+        }
+        .mkdf-counter-content {
+            text-align: left;
+
+            .mkdf-counter-title {
+                margin: 0;
+                line-height: 2.25em;
+            }
+        }
+    }
+
+    .mkdf-counter-title {
+	    margin: 0 0 0 44px;
+
+        @include laptop-landscape-large{
+            margin: 0 0 0 16px;
+        }
+        @include ipad-landscape{
+            margin: 0 0 0 44px;
+        }
+
+		@include phone-landscape{
+			margin: 0 0 0 2px;
+		}
+	}
+
+    .mkdf-counter-text {
+        margin: -13px 46px 0;
+
+        @include laptop-landscape-large{
+            margin: 23px 16px 3px;
+        }
+
+        @include ipad-landscape{
+            margin: 0 46px 3px;
+        }
+		@include mkdfH6();
+		font-size: 14px;
+        text-align: left;
+        line-height: 2.2em;
+        text-transform: uppercase;
+
+        @include phone-landscape{
+            margin: 23px 46px 3px 5px;
+        }
+    }
+
+	.mkdf-counter{
+        &.mkdf-shadow-counter{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #13192f;
+        }
+	}
+
+    .mkdf-shadow-counter{
+        .mkdf-counter-text{
+            margin: 0 46px 0 0;
+            line-height: 2.3em;
+            text-transform: uppercase;
+        }
+        .mkdf-counter-title{
+            margin: 0;
+        }
+    }
+
+    .mkdf-counter-background{
+        float: left;
+        min-width: 186px;
+        color: #f5f6f7;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #d2d2d4;
+        height: 1em;
+        display: inline-block !important;
+        vertical-align: middle;
+        line-height: 1em;
+        font-weight: 600;
+        overflow: hidden;
+        font-size: 180px;
+    }
+
+    &.mkdf-counter-bold-skin{
+        .mkdf-counter-number{
+            -webkit-text-fill-color: initial;
+            -webkit-text-stroke-width: initial;
+            -webkit-text-stroke-color: initial;
+        }
+    }
+	.mkdf-counter-content{
+		float: left;
+        text-align: left;
+
+        @include phone-landscape{
+            float: none;
+        }
+	}
+
+    &.mkdf-counter-centered{
+
+        .mkdf-counter-inner{
+            width: 100%;
+        }
+
+        .mkdf-counter-number{
+            min-width: 100%;
+        }
+
+        .mkdf-counter-title,
+        .mkdf-counter-text,
+        .mkdf-counter-number {
+            text-align: center;
+        }
+
+        .mkdf-counter-content{
+            width: 100%;
+
+            .mkdf-counter-title{
+                margin: 0;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Counter shortcode style - end
+   ========================================================================== */

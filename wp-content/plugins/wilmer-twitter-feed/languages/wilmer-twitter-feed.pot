@@ -1,0 +1,159 @@
+# Copyright (C) 2021 Mikado Themes
+# This file is distributed under the same license as the Wilmer Twitter Feed plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wilmer Twitter Feed 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wilmer-twitter-feed\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-09-21T12:10:04+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0-alpha-1a19028\n"
+"X-Domain: wilmer-twitter-feed\n"
+
+#. Plugin Name of the plugin
+msgid "Wilmer Twitter Feed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds Twitter feed functionality to our theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mikado Themes"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:231
+#: lib/wilmer-twitter-api.php:298
+#: lib/wilmer-twitter-api.php:364
+msgid "Internal WP error"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:247
+msgid "Redirect URL couldn\\t not be generated"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:254
+msgid "Couldn't connect with Twitter API"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:310
+msgid "Access token obtained"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:315
+msgid "Authorize token and it's secret were not obtainer"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:374
+msgid "Couldn't connect with Twitter"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:379
+msgid "It seams like you haven\\t connected with your Twitter account"
+msgstr ""
+
+#: lib/wilmer-twitter-api.php:389
+msgid "Couldn't retreive content from database"
+msgstr ""
+
+#: lib/wilmer-twitter-helper.php:88
+msgid "ago"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:10
+#: shortcodes/twitter-list/twitter-list.php:24
+msgid "Twitter List"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:25
+msgid "General"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:33
+#: shortcodes/twitter-list/twitter-list.php:33
+#: widgets/wilmer-twitter-widget.php:40
+msgid "User ID"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:41
+#: shortcodes/twitter-list/twitter-list.php:39
+msgid "Number of Columns"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:51
+msgid "Space Between Items"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:61
+#: shortcodes/twitter-list/twitter-list.php:52
+#: widgets/wilmer-twitter-widget.php:45
+msgid "Number of Tweets"
+msgstr ""
+
+#: shortcodes/twitter-list/elementor-twitter-list.php:69
+msgid "Images Cache Time"
+msgstr ""
+
+#: shortcodes/twitter-list/holder.php:20
+#: widgets/wilmer-twitter-widget.php:203
+msgid "It seams that you haven't connected with your Twitter account"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:26
+msgid "by WILMER"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:46
+msgid "Space Between Columns"
+msgstr ""
+
+#: shortcodes/twitter-list/twitter-list.php:57
+#: widgets/wilmer-twitter-widget.php:68
+msgid "Tweets Cache Time"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:12
+msgid "Wilmer Twitter Widget"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:14
+msgid "Display your Twitter feed"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:26
+msgid "Title"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:31
+msgid "Type"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:33
+msgid "Standard"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:34
+msgid "Slider"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:50
+msgid "Show Tweet Icon"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:52
+#: widgets/wilmer-twitter-widget.php:62
+msgid "Yes"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:53
+#: widgets/wilmer-twitter-widget.php:61
+msgid "No"
+msgstr ""
+
+#: widgets/wilmer-twitter-widget.php:59
+msgid "Show Tweet Time"
+msgstr ""

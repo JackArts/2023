@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+    
+    &.mkdf-ps-small-gallery-layout {
+
+        .mkdf-grid-row.mkdf-ps-small {
+            margin-bottom: 100px;
+        }
+
+        .mkdf-ps-related-posts-holder{
+            margin: 107px 0 0;
+
+            @include ipad-landscape{
+                margin: 72px 0 0;
+            }
+        }
+    
+        .mkdf-ps-image-holder {
+            width: 100%;
+
+            @include ipad-landscape{
+                padding-bottom: 10px;
+            }
+        
+            .mkdf-ps-image {
+                float: left;
+            
+                a {
+                    @include mkdfImageOverlayHoverStyle();
+
+                    &:after {
+                        background-color: initial;
+                    }
+                }
+            }
+        }
+
+        .mkdf-ps-content-item {
+            margin: 0 0 44px;
+        }
+        .mkdf-ps-info-section-title{
+            margin-top:0;
+            line-height: 1em;
+
+            @include ipad-landscape{
+                padding-top: 25px;
+            }
+        }
+        .mkdf-portfolio-single-title{
+            margin-top:0;
+            margin-bottom: 14px;
+            line-height: 1em;
+
+            @include laptop-landscape-mac {
+                font-size: 30px;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Small Gallery layout style - end
+   ========================================================================== */

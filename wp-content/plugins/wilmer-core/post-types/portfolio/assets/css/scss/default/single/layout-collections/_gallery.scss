@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+    
+    &.mkdf-ps-gallery-layout {
+
+		.mkdf-grid-row.mkdf-ps-big {
+            margin-bottom: 107px;
+		}
+        
+        .mkdf-ps-image-holder {
+	        width: 100%;
+	
+	        .mkdf-ps-image {
+		        float: left;
+		        
+		        a {
+			        @include mkdfImageOverlayHoverStyle();
+
+					&:after {
+						background-color: initial;
+					}
+		        }
+	        }
+        }
+	
+	    > .mkdf-grid-row {
+		    margin-top: 22px;
+
+			@include ipad-landscape{
+				margin-top: 0;
+			}
+
+	    }
+    }
+}
+/* ==========================================================================
+   Portfolio Single - Gallery layout style - end
+   ========================================================================== */
